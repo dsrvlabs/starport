@@ -49,7 +49,8 @@ require (
 	github.com/tendermint/spm v0.1.5
 	github.com/tendermint/spn v0.1.1-0.20211129160658-aa02296826a8
 	github.com/tendermint/tendermint v0.34.14
-	github.com/tendermint/vue v0.1.55
+	github.com/tendermint/vue v0.1.54
+	github.com/vektra/mockery/v2 v2.9.4 // indirect
 	golang.org/x/mod v0.4.2
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/term v0.0.0-20201210144234-2321bbc49cbf
