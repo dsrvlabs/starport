@@ -16,6 +16,8 @@ description: Description of Starport plugin system.
 
 ## How to use plugin system
 
+*We recommend to use Golang 1.17.x on OSX for building plugin.*
+
 ### Step 1: Build Starport
 
 Developers must build Starport first to use the Starport plugin system.
