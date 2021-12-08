@@ -279,7 +279,7 @@ func (c *Chain) Home() (string, error) {
 	}
 
 	// expand environment variables in home
-	home = filepath.Join(os.ExpandEnv(home))
+	home = filepath.Join(os.ExpandEnv(home), "")
 
 	return home, nil
 }
