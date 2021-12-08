@@ -36,6 +36,7 @@ starport scaffold chain github.com/cosmonaut/mars
 * [starport chain](#starport-chain)	 - Build, initialize and start a blockchain node or perform other actions on the blockchain
 * [starport docs](#starport-docs)	 - Show Starport docs
 * [starport generate](#starport-generate)	 - Generate clients, API docs from source code
+* [starport plugin](#starport-plugin)	 - Plugin list and install.
 * [starport relayer](#starport-relayer)	 - Connect blockchains by using IBC protocol
 * [starport scaffold](#starport-scaffold)	 - Scaffold a new blockchain, module, message, query, and more
 * [starport tools](#starport-tools)	 - Tools for advanced users
@@ -476,6 +477,62 @@ starport generate vuex [flags]
 * [starport generate](#starport-generate)	 - Generate clients, API docs from source code
 
 
+## starport plugin
+
+Plugin list and install.
+
+**Options**
+
+```
+  -h, --help          help for plugin
+      --home string   Home directory used for blockchains
+```
+
+**SEE ALSO**
+
+* [starport](#starport)	 - Starport offers everything you need to scaffold, test, build, and launch your blockchain
+* [starport plugin install](#starport-plugin-install)	 - Install new plugin
+* [starport plugin list](#starport-plugin-list)	 - List plugins cofigured
+
+
+## starport plugin install
+
+Install new plugin
+
+```
+starport plugin install [flags]
+```
+
+**Options**
+
+```
+  -h, --help   help for install
+```
+
+**SEE ALSO**
+
+* [starport plugin](#starport-plugin)	 - Plugin list and install.
+
+
+## starport plugin list
+
+List plugins cofigured
+
+```
+starport plugin list [flags]
+```
+
+**Options**
+
+```
+  -h, --help   help for list
+```
+
+**SEE ALSO**
+
+* [starport plugin](#starport-plugin)	 - Plugin list and install.
+
+
 ## starport relayer
 
 Connect blockchains by using IBC protocol
@@ -725,6 +782,7 @@ starport scaffold module [name] [flags]
   -h, --help                   help for module
       --ibc                    scaffold an IBC module
       --ordering string        channel ordering of the IBC module [none|ordered|unordered] (default "none")
+      --params strings         scaffold module params
   -p, --path string            path of the app (default ".")
       --require-registration   if true command will fail if module can't be registered
 ```
